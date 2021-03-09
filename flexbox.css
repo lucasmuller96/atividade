@@ -1,0 +1,16 @@
+.cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrinho-usuário {
+    display: flex;
+}
+
+.conteudo .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
