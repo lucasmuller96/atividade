@@ -50,8 +50,10 @@ body {
 	box-shadow: 0 0 0.5em gray;
 }
 
-.conteudo .imgpromo{	
+.conteudo .imgpromo{
+	margin: auto;	
 	background-image: url(../img/background-futebol-gramado.jpg);
 	background-repeat: repeat ;
+
 }
 
