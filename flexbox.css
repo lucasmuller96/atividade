@@ -1,11 +1,17 @@
-.cabecalho .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.cabecalho .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.carrinho-usuário {
+.cabecalho-logo {
+	display: flex;
+}
+.cabecalho-nav{
     display: flex;
+}
+.carrinho-usuario{
+    display: flex:
 }
 
 .conteudo h2 {
@@ -18,4 +24,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.camisa-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel{
+    display: flex;
+    align-items: center;
+}
+
+.camisaria .container{
+    align-items: center;
 }

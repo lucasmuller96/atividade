@@ -1,5 +1,7 @@
 body {
-    background-color: #F2F5F7;
+    background-image: url(../img/background-body.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat-x;
 	font-family: 'Open Sans',Arial,sans-serif;
 }
 
@@ -15,9 +17,10 @@ body {
 }
 
 .cabecalho-logo {
+	color: white;
 	font-weight: bold;
 	font-size: 2em;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .cabecalho-logo a {
@@ -25,31 +28,40 @@ body {
 	color: inherit;
 }
 
-.cabecalho-nav-link {
-	padding: 10px;
-	margin-bottom: 10px;
-	color: #9799A6;
-	background-color: #FFF;
+.cabecalho-nav {
+	color: white;
+	padding: 5px;
+	margin-bottom: 5px;
 	text-decoration: none;
 	transition: .5s;
 	display: block;
 }
 
-.cabecalho-nav-link:hover {
-	color: #FFF;
-	background-color: #9799A6;
+.cabecalho-nav:hover {
+	background-color: #e7e7e7;
 }
 
-.conteudo h2 {
-    width: auto;
+.conteudo{
 	padding: 5px;
-	margin: 25px;
-	background-color: #dee0e0;
-	color:black;
-	box-shadow: 0 0 0.5em gray;
+	margin: 5px;
+	color:white;
+	background-color:rgb(42, 42, 100);
+	box-shadow: 0 0 0.9em whitesmoke);
 }
 
-.conteudo .imgpromo{	
+.imgpromo{
 	background-image: url(../img/background-futebol-gramado.jpg);
 	background-repeat: repeat ;
+	box-shadow: 0 0 0.9em gray;
+
 }
+
+.camisa-titulo {
+	width: auto;
+	padding: 5px;
+	margin: 5px;
+	background-color: #f1f1f1;
+	color:black;
+	
+}
+
