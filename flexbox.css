@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 .cabecalho .container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+=======
+.cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+>>>>>>> ed96ff11f9d33bb91a05d9ec345bda1dd325fabe
 }
 
 .cabecalho-logo {

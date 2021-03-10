@@ -49,6 +49,7 @@ body {
 	box-shadow: 0 0 0.9em whitesmoke);
 }
 
+<<<<<<< HEAD
 .imgpromo{
 	background-image: url(../img/background-futebol-gramado.jpg);
 	background-repeat: repeat ;
@@ -65,3 +66,10 @@ body {
 	
 }
 
+=======
+.conteudo .imgpromo{
+	margin: auto;	
+	background-image: url(../img/background-futebol-gramado.jpg);
+	background-repeat: repeat ;
+}
+>>>>>>> ed96ff11f9d33bb91a05d9ec345bda1dd325fabe
